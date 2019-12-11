@@ -1,5 +1,5 @@
 cask 'thunderbird' do
-  version '68.3.0'
+  version '60.9.1'
 
   language 'cs' do
     sha256 '325ccac98745303803ccac862b9dd7b0828e18ab32072d3dd3a87b9d6dccd66c'
@@ -86,7 +86,7 @@ cask 'thunderbird' do
   name 'Mozilla Thunderbird'
   homepage 'https://www.mozilla.org/thunderbird/'
 
-  auto_updates true
+  auto_updates false
   conflicts_with cask: 'thunderbird-beta'
 
   app 'Thunderbird.app'
